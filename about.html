@@ -5,83 +5,49 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>About Us — ecomeasy</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
-  :root {
-    --bg:#f7f5ef; --surface:#ffffff; --ink:#16241d; --muted:#647167; --border:#e1ddd0;
-    --teal-950:#0a2620; --teal-900:#0d3b2e; --teal-700:#1d5c47; --teal-50:#f1f7f3;
-    --gold:#c9952d; --gold-dark:#a87a1f; --gold-light:#f3e2b3;
-    --radius:16px; --shadow:0 6px 24px rgba(13,59,46,.08);
-  }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { font-family:'Noto Sans',sans-serif; background:var(--bg); color:var(--ink); line-height:1.7; }
-  h1,h2,.display { font-family:'Space Grotesk',sans-serif; }
-  header { background:var(--surface); padding:14px 24px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; }
-  .logo { font-size:18px; font-weight:700; color:var(--teal-900); }
-  .logo span { color:var(--gold-dark); }
-  .back { font-size:13px; font-weight:700; color:var(--teal-700); text-decoration:none; }
-  .hero { background:var(--teal-950); color:#fff; padding:48px 24px; text-align:center; }
-  .eyebrow { display:inline-flex; align-items:center; gap:7px; font-size:11.5px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; color:var(--gold-light); }
-  .eyebrow::before { content:''; width:16px; height:2px; background:var(--gold-light); }
-  .hero h1 { font-size:clamp(24px,4vw,34px); margin-top:12px; }
-  section { padding:48px 24px; }
-  .container { max-width:760px; margin:0 auto; }
-  .card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:28px; box-shadow:var(--shadow); margin-bottom:20px; }
-  .card h2 { font-size:18px; color:var(--teal-900); margin-bottom:10px; }
-  .card p { font-size:14.5px; color:var(--ink); margin-bottom:10px; }
-  .stat-row { display:flex; gap:14px; flex-wrap:wrap; margin-top:18px; }
-  .stat { background:var(--teal-50); border-radius:10px; padding:14px 18px; text-align:center; flex:1; min-width:120px; }
-  .stat b { display:block; font-size:20px; color:var(--teal-900); }
-  .stat span { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
-  footer { background:var(--teal-950); color:#9fc2b3; text-align:center; padding:30px 20px; font-size:12.5px; }
-  footer a { color:var(--gold-light); text-decoration:none; }
+  :root{ --bg:#f7f5ef; --surface:#fff; --ink:#16241d; --muted:#647167; --border:#e1ddd0;
+  --teal-950:#0a2620; --teal-900:#0d3b2e; --gold:#c9952d; --gold-light:#f3e2b3; }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Noto Sans',sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;}
+  h1,h2{font-family:'Space Grotesk',sans-serif;color:var(--teal-900);}
+  header{background:var(--teal-950);color:#fff;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;}
+  header .logo{font-size:18px;font-weight:700;} header .logo span{color:var(--gold);}
+  header a.back{color:var(--gold-light);text-decoration:none;font-size:13px;font-weight:600;}
+  main{max-width:720px;margin:0 auto;padding:48px 24px 80px;}
+  h1{font-size:28px;margin-bottom:18px;}
+  p{margin-bottom:14px;font-size:15px;color:var(--ink);}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:26px;margin-top:20px;}
+  .card h2{font-size:17px;margin-bottom:8px;}
+  footer{background:var(--teal-950);color:#9fc2b3;text-align:center;padding:26px;font-size:12.5px;}
+  footer a{color:var(--gold-light);text-decoration:none;}
 </style>
 </head>
 <body>
 <header>
   <div class="logo">ECOMEASY<span>COURSE</span></div>
-  <a href="index.html" class="back">← Home par jaayein</a>
+  <a class="back" href="https://ecomeasy.store/">← Wapas Home</a>
 </header>
-
-<div class="hero">
-  <span class="eyebrow">Hamare baare mein</span>
-  <h1>About ecomeasy</h1>
-</div>
-
-<section>
-  <div class="container">
-    <div class="card">
-      <h2>Hum kaun hain</h2>
-      <p>ecomeasy ek online education platform hai jo logon ko Meesho, Flipkart, Amazon jaise e-commerce marketplaces par apna online selling business shuru karna sikhata hai. Hamara maqsad simple hai — bina kisi bhaari background ya investment ke, kisi bhi insaan ko ghar baithe online seller banne layak banana.</p>
-      <p>Hum video-based, Hindi mein step-by-step training dete hain jisme account setup se lekar pehli sale tak ka poora process cover hota hai.</p>
-    </div>
-
-    <div class="card">
-      <h2>Hamari Shuruaat</h2>
-      <p>ecomeasy ke founder ne khud 2022 se online selling ki hai aur trial-and-error se yeh seekha ki ek naya seller kis tarah ki galtiyan karta hai. Isi experience se yeh course banaya gaya, taaki naye sellers ko wahi mushkilein dobara na jhelni padein.</p>
-    </div>
-
-    <div class="card">
-      <h2>Hamara Mission</h2>
-      <p>Har student ko practical, real-world skills dena jo unhe genuinely online business start karne mein madad karein — sirf theory nahi, balki actual screen-recordings, templates aur calculators ke saath.</p>
-      <div class="stat-row">
-        <div class="stat"><b>2,847+</b><span>Students</span></div>
-        <div class="stat"><b>8</b><span>Modules</span></div>
-        <div class="stat"><b>3</b><span>Platforms Covered</span></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Contact Karein</h2>
-      <p>Kisi bhi sawaal ya doubt ke liye humse WhatsApp par baat karein: <a href="https://wa.me/918595735564" style="color:var(--teal-700);font-weight:700;">+91 85957 35564</a></p>
-      <p>Support timing: Mon–Sat, 10AM – 8PM IST</p>
-    </div>
+<main>
+  <h1>Hamare baare mein</h1>
+  <p>ecomeasy ek Hindi-language online learning platform hai jo naye sellers ko Meesho, Flipkart aur Amazon jaise platforms par online business shuru karne mein madad karta hai.</p>
+  <p>Hamara maqsad simple hai — bina complicated jargon ke, step-by-step tareeke se sikhana taaki koi bhi ghar baithe apna online selling business shuru kar sake.</p>
+  <div class="card">
+    <h2>👨‍💻 Founder</h2>
+    <p>Course ke founder khud ek online seller hain, jinhone 2022 se practical trial-and-error se selling seekhi hai. Isi real experience ko unhone is course ki shakal di.</p>
   </div>
-</section>
-
+  <div class="card">
+    <h2>📍 Business Details</h2>
+    <p><strong>jitender kumar</strong><br>
+    p-7/138, mangol puri, n block,<br>
+    new delhi 110083</p>
+    <p>✉️ <a href="mailto:jitenderbobby28@gmail.com" style="color:var(--teal-900);font-weight:600;">jitenderbobby28@gmail.com</a></p>
+    <p>📞 <a href="https://wa.me/918595735564" style="color:var(--teal-900);font-weight:600;">+91 85957 35564</a></p>
+  </div>
+</main>
 <footer>
-  <p>© 2026 ecomeasy. All rights reserved.</p>
-  <p style="margin-top:6px;">📞 <a href="https://wa.me/918595735564">+91 85957 35564</a></p>
+  © ecomeasy · <a href="https://ecomeasy.store/">Home</a>
 </footer>
 </body>
 </html>
